@@ -69,6 +69,17 @@ h1, h2, h3, h4, h5,
 	color: $primary!important;
 }
 
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	background: $white;
+	padding: 10px 0;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 .ftco-navbar-light {
 	background: transparent!important;
 	position: absolute;

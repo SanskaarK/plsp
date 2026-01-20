@@ -7302,13 +7302,25 @@ h1, h2, h3, h4, h5,
 .text-primary {
   color: #f86f2d !important; }
 
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #fff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
   left: 0;
   right: 0;
   z-index: 3;
-  top: 10px; }
+  top: 40px; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #000 !important;
@@ -7393,8 +7405,8 @@ h1, h2, h3, h4, h5,
     position: fixed;
     right: 0;
     left: 0;
-    top: 0;
-    margin-top: -130px;
+    top: 40px;
+    margin-top: -40px;
     background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
