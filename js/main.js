@@ -66,6 +66,17 @@
 			}
 		});
 
+		$('.hero-wrap').owlCarousel({
+			autoplay: true,
+			loop: true,
+			items: 1,
+			margin: 0,
+			nav: false,
+			dots: true,
+			animateOut: 'fadeOut',
+			animateIn: 'fadeIn'
+		});
+
 	};
 	carousel();
 
