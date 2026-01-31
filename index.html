@@ -26,6 +26,19 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      @media (max-width: 991.98px) {
+        .navbar-brand {
+          font-size: 15px;
+          white-space: normal;
+          max-width: 80%;
+          line-height: 1.2;
+        }
+        .navbar-brand img {
+          height: 30px !important;
+        }
+      }
+    </style>
   </head>
   <body>
     <!-- Start header -->
@@ -36,12 +49,18 @@
             <div class="row d-flex col-lg-12 pl-3">
               <div class="col-xs-4 pr-4 d-flex topper align-items-center justify-content-end">
                 <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2 text-primary"></span></div>
-                <span class="text text-dark">+2 392 3929 210</span>
+                <span class="text text-dark">
+                  <a href="tel:+917312992114" style="color: #000;">
+                    +917312992114
+                  </a>
+                </span>
               </div>
               <div class="col-xs-4 pr-4 d-flex topper align-items-center justify-content-center">
                 <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane text-primary"></span></div>
                 <span class="text text-dark">
-                  info@yourdomain.com
+                  <a href="mailto:dr.anshulpandey@gmail.com" style="color: #000;">
+                    dr.anshulpandey@gmail.com
+                  </a>
                 </span>
               </div>
               <div class="col-xs-4 d-flex topper align-items-center justify-content-end">
@@ -60,19 +79,21 @@
     <!-- End Header -->
     <!-- Start Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Welfare</a>
+    <div class="container col-lg-12 justify-content-evenly">
+      <a class="navbar-brand" href="index.html">
+          <!-- add a sample logo -->
+        <img src="images/loc.png" alt="PSLP Foundation" style="height: 40px; width: auto; margin-right: 10px;">
+        Prof. Sangamlal Pandey Memorial society
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav m-auto">
           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="causes.html" class="nav-link">Causes</a></li>
           <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
           <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
           <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
