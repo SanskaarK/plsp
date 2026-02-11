@@ -7569,13 +7569,7 @@ h1, h2, h3, h4, h5,
   top: 40px;
   margin-bottom: 30px;
 }
-/* responsive if width < 1024 */
-@media(min-width:1024px){
-  .owl-carousel{
-    top: 100px;
-  }
 
-}
   .owl-carousel .owl-item {
     opacity: .4; }
     .owl-carousel .owl-item.active {
@@ -9209,3 +9203,15 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Custom Css Sanskaar Gupta */
+/* responsive if width < 1024 */
+@media(min-width:1024px){
+  .owl-carousel{
+    top: 100px;
+  }
+  .ftco-intro{
+    margin-top: 100px;
+  }
+
+}
