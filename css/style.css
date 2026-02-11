@@ -3261,7 +3261,8 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  /* padding: 0.5rem 1rem;  */
+}
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -7564,7 +7565,17 @@ h1, h2, h3, h4, h5,
       color: #f86f2d; }
 
 .owl-carousel {
-  position: relative; }
+  position: relative; 
+  top: 40px;
+  margin-bottom: 30px;
+}
+/* responsive if width < 1024 */
+@media(min-width:1024px){
+  .owl-carousel{
+    top: 100px;
+  }
+
+}
   .owl-carousel .owl-item {
     opacity: .4; }
     .owl-carousel .owl-item.active {
