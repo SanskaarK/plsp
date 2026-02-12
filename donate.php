@@ -44,66 +44,9 @@
   <body>
     
     <!-- Start header -->
-     <header class="top-bar">
-      <div class="container">
-        <div class="row no-gutters d-flex align-items-center">
-          <div class="col-lg-12 d-block">
-            <div class="row d-flex" style="justify-content: space-evenly;">
-              <div class="d-flex topper align-items-center">
-                <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2 text-primary"></span></div>
-                <span class="text text-dark">
-                  <a href="tel:+917312992114" style="color: #000;">
-                    +917312992114
-                  </a>
-                </span>
-              </div>
-              <div class="d-flex topper align-items-center">
-                <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane text-primary"></span></div>
-                <span class="text text-dark">
-                  <a href="mailto:dr.anshulpandey@gmail.com" style="color: #000;">
-                    dr.anshulpandey@gmail.com
-                  </a>
-                </span>
-              </div>
-              <div class="d-flex topper align-items-center">
-                <ul class="list-unstyled d-flex pt-4">
-                  <li class="mr-2"><a href="#"><span class="icon-twitter text-primary"></span></a></li>
-                  <li class="mr-2"><a href="#"><span class="icon-facebook text-primary"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram text-primary"></span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     </header>
-
-    <!-- End Header -->
-    <!-- Start Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/img/logo.png" alt="PLSP" style="height: 50px;">
-        PLSP Foundation
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
-
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="causes.html" class="nav-link">Causes</a></li>
-          <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <?php
+    include_once('includes/header.php');
+    ?>
     <!-- END nav -->
     
     <div class="hero-wrap owl-carousel">
@@ -187,111 +130,135 @@
     </div>
 
     
-    <section class="ftco-section">
+    <section class="ftco-section bg-light">
       <div class="container">
         <div class="row">
-        	<div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-1.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-3.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-4.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-5.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry align-self-stretch">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-6.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-              	<div class="meta mb-3">
-                  <div><a href="#">Sep. 10, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
-                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
-              </div>
-            </div>
-          </div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_1.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$300</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$150</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$250</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_4.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$300</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_5.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$150</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_6.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$250</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_7.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$300</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_8.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$150</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_9.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$250</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
         </div>
         <div class="row mt-5">
           <div class="col text-center">
@@ -310,7 +277,34 @@
         </div>
       </div>
     </section>
-		
+
+    <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex">
+    		<div class="col-md-6 d-flex ftco-animate">
+    			<div class="img img-2 align-self-stretch" style="background-image: url(images/bg_4.jpg);"></div>
+    		</div>
+    		<div class="col-md-6 volunteer pl-md-5 ftco-animate">
+    			<h3 class="mb-3">Be a volunteer</h3>
+    			<form action="#" class="volunter-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Send Message" class="btn btn-white py-3 px-5">
+            </div>
+          </form>
+    		</div>    			
+    		</div>
+    	</div>
+    </section>
 
     <footer class="ftco-footer ftco-section img">
     	<div class="overlay"></div>

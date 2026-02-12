@@ -44,66 +44,10 @@
   <body>
     
     <!-- Start header -->
-     <header class="top-bar">
-      <div class="container">
-        <div class="row no-gutters d-flex align-items-center">
-          <div class="col-lg-12 d-block">
-            <div class="row d-flex" style="justify-content: space-evenly;">
-              <div class="d-flex topper align-items-center">
-                <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2 text-primary"></span></div>
-                <span class="text text-dark">
-                  <a href="tel:+917312992114" style="color: #000;">
-                    +917312992114
-                  </a>
-                </span>
-              </div>
-              <div class="d-flex topper align-items-center">
-                <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane text-primary"></span></div>
-                <span class="text text-dark">
-                  <a href="mailto:dr.anshulpandey@gmail.com" style="color: #000;">
-                    dr.anshulpandey@gmail.com
-                  </a>
-                </span>
-              </div>
-              <div class="d-flex topper align-items-center">
-                <ul class="list-unstyled d-flex pt-4">
-                  <li class="mr-2"><a href="#"><span class="icon-twitter text-primary"></span></a></li>
-                  <li class="mr-2"><a href="#"><span class="icon-facebook text-primary"></span></a></li>
-                  <li><a href="#"><span class="icon-instagram text-primary"></span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     </header>
+    <?php
+    include_once('includes/header.php');
+    ?>
 
-    <!-- End Header -->
-    <!-- Start Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/img/logo.png" alt="PLSP" style="height: 50px;">
-        PLSP Foundation
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
-
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav m-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="causes.html" class="nav-link">Causes</a></li>
-          <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
     <!-- END nav -->
     
     <div class="hero-wrap owl-carousel">
@@ -188,96 +132,125 @@
 
     
     <section class="ftco-section">
-    	<div class="container">
-    		<div class="row d-flex">
-    			<div class="col-md-6 d-flex ftco-animate">
-    				<div class="img img-about align-self-stretch" style="background-image: url(images/img/help3.jpeg); width: 100%;"></div>
-    			</div>
-    			<div class="col-md-6 pl-md-5 ftco-animate" style="text-align: justify;">
-    				<h2 class="mb-4">Prof.Sangam Lal Pandey Memorial Society (PSLPMS)</h2>
-    				<p>Prof.Sangam Lal Pandey Memorial Society (PSLPMS) is a NGO which addresses the interconnected problems that our global community faces in order to stimulate positive and lasting change. In addition to promoting social justice, we are dedicated to advancing fair access to education, empowering women and underrepresented groups, enhancing healthcare results, and safeguarding the environment.</p>
-    				<p>By means of inventive programs, collaborative efforts, and advocacy campaigns, our aim is to dismantle obstacles to education and furnish marginalized communities with the erudition, competencies, and materials required to realize their complete potential and make a substantial contribution to the community. We think that education is an essential human right and an effective means of empowering people and transforming society.</p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-    <section class="ftco-section">
-    	<div class="container">
-    		<div class="row" style="text-align: justify;">
-          <div class="col-md-6 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 d-flex services p-3 py-4 d-block">
-              <div class="icon d-flex mb-3"><span class="flaticon-donation-1"></span></div>
-              <div class="media-body pl-4">
-                <h3 class="heading">Our Mission</h3>
-                <p>Our mission is to promote sustainable agriculture environmental stewardship, supporting farmers and communities to adopt eco-friendly practices. We are dedicated to advancing gender equality by providing women and girls with the resources, education, and support they need to thrive and lead change in their communities. Promotion of cultural diversity and preserving heritage through awareness programs, preservation efforts, and cultural exchange programs. Our organization aims to empower youth to become active citizens and leaders in their communities through education, mentorship, and civic engagement. We work to address the root causes of poverty by providing economic opportunities, job training, and support for sustainable livelihoods.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-6 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 d-flex services p-3 py-4 d-block">
-              <div class="icon d-flex mb-3"><span class="flaticon-charity"></span></div>
-              <div class="media-body pl-4">
-                <h3 class="heading">Our Vision</h3>
-                <p>We envision a society where human beings actively contribute to the advancement of educational, cultural, environmental, and economic dimensions. Our goal is to create a world where knowledge is accessible to all, fostering innovation, critical thinking, and lifelong learning. We aim to preserve and explore cultural traditions, ensuring that heritage remains an integral part of modern society. We strive to promote a sustainable green future by advocating for environmental conservation, responsible resource management, and eco-friendly initiatives. Economic stability is at the core of our vision, as we believe in creating opportunities that enable individuals to achieve financial independence. By empowering communities with education, cultural enrichment, environmental awareness, and economic resources.</p>
-              </div>
-            </div>      
-          </div>
-        </div>
-    	</div>
-    </section>
-
-    <section class="ftco-section bg-light">
       <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-4">Latest Donations</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <div class="row">
+        	<div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-1.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-2.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-3.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-4.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-5.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/event-6.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a href="#">Sep. 10, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mb-4"><a href="#">World Wide Donation</a></h3>
+                <p class="time-loc"><span class="mr-2"><i class="icon-clock-o"></i> 10:30AM-03:30PM</span> <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="row">
-        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-        			<div class="d-flex mb-4">
-        				<div class="img" style="background-image: url(images/person_1.jpg);"></div>
-        				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-        					<span class="position">Donated Just now</span>
-        					<div class="text">
-		        				<p>Donated <span>$300</span> for <a href="#">Children Needs Food</a></p>
-		        			</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-        			<div class="d-flex mb-4">
-        				<div class="img" style="background-image: url(images/person_2.jpg);"></div>
-        				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-        					<span class="position">Donated Just now</span>
-        					<div class="text">
-		        				<p>Donated <span>$150</span> for <a href="#">Children Needs Food</a></p>
-		        			</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
-        		<div class="staff">
-        			<div class="d-flex mb-4">
-        				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
-        				<div class="info ml-4">
-        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
-        					<span class="position">Donated Just now</span>
-        					<div class="text">
-		        				<p>Donated <span>$250</span> for <a href="#">Children Needs Food</a></p>
-		        			</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
+        <div class="row mt-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
